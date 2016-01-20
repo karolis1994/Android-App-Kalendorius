@@ -1,0 +1,5 @@
+Aplikacija - Kalendorius.
+Programuota su Android Studio
+Naudota Fragmentai, lokali SQLite duomenų bazė, AlarmManager servisas, Tab'ų formos meniu.
+
+Programa leidžia sukurti užrašus ir įvykius (užrašas tik leidžiama pasirinkti notifikacijos datą, laiką, kartojimo dažnį)
