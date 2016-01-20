@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Kalendorius</string>
+    <string name="kalendoriusMygtukasFragment">Kalendorius</string>
+    <string name="uzrasaiMygtukasFragment">Užrašai</string>
+    <string name="ivykiaiMygtukasFragment">Įvykiai</string>
+    <string name="mygtukasSukurtiUzrasa">Sukurti užrašą</string>
+    <string name="mygtukasSukurtiIvyki">Sukurti įvykį</string>
+    <string name="mygtukasAtgal">Atgal</string>
+    <string name="mygtukasPirmyn">Pirmyn</string>
+    <string name="CalendarScreenTitle">Kalendorius</string>
+    <string name="CreateEventScreenTitle">Sukurti įvykį</string>
+    <string name="IvykioPavadinimas">Įvykio pavadinimas:</string>
+    <string name="HintIvykioPavadinimas">Pavadinimas</string>
+    <string name="TitleCreateNote">Sukurti užrašą</string>
+    <string name="TitleNoteList">Užrašų sąrašas</string>
+    <string name="TitleEventList">Įvykių sąrašas</string>
+    <string name="TitleEditNote">Redaguoti užrašą</string>
+    <string name="ButtonEditNote">Pakeisti</string>
+    <string name="ButtonDeleteNote">Ištrinti</string>
+</resources>

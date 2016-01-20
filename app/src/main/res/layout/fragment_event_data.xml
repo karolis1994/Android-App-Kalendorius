@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/IvykioPavadinimas"
+        android:id="@+id/titleEventName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputEventName"
+        android:layout_below="@+id/titleEventName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:hint="Pavadinimas"
+        android:textColorHint="#837F7E"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/text_field"
+        android:text="" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/inputEventDate"
+        android:layout_below="@+id/inputEventName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Data (YYYY-MM-DD) "
+        android:textColor="#000000"
+        android:textColorHint="#837F7E"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/text_field" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/inputEventTime"
+        android:layout_below="@+id/inputEventDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Laikas"
+        android:textColor="#000000"
+        android:textColorHint="#837F7E"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/text_field" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="__________________________________________________"
+        android:id="@+id/breakLine"
+        android:layout_below="@+id/inputEventTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Priminimai"
+        android:textColor="#000000"
+        android:id="@+id/textAlert"
+        android:layout_below="@+id/breakLine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerAlert"
+        android:layout_below="@+id/textAlert"
+        android:layout_alignRight="@+id/textAlert"
+        android:layout_alignEnd="@+id/textAlert"
+        android:spinnerMode="dropdown"
+        android:background="#3FA9F5"
+        android:layout_marginLeft="5dp"
+        android:clickable="false"
+        android:outlineProvider="paddedBounds" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Kartoti?"
+        android:textColor="#000000"
+        android:id="@+id/textRepeat"
+        android:layout_below="@+id/spinnerAlert"
+        android:layout_marginLeft="5dp"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchRepeat"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textRepeat"
+        android:layout_alignLeft="@+id/textRepeat"
+        android:layout_alignStart="@+id/textRepeat"
+        android:checked="false" />
+
+</RelativeLayout>

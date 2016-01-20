@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.widget.CalendarView
+        android:id="@+id/kalendorius"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/borders"
+        android:weekSeparatorLineColor="#74AAD9"
+        android:focusedMonthDateColor="#31003d"
+        android:unfocusedMonthDateColor="#ffc2ce"
+        android:showWeekNumber="false"
+        android:layout_gravity="center_horizontal|top"
+        android:selectedWeekBackgroundColor="#CEFFC2"
+        android:layout_margin="3dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonAtgal"
+        android:src="@drawable/arrow_left"
+        android:background="@drawable/calendar_button"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPirmyn"
+        android:src="@drawable/arrow_right"
+        android:background="@drawable/calendar_button"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"/>
+
+</FrameLayout>
